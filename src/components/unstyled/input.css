@@ -1,6 +1,6 @@
 .input {
   @apply flex-shrink;
-  @apply h-12 px-4 text-sm leading-loose;
+  @apply px-3 py-1.5 text-base;
 }
 .input-group {
   @apply flex w-full items-stretch;

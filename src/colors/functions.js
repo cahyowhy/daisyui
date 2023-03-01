@@ -133,10 +133,10 @@ module.exports = {
 
         // auto generate css variables
         if (!input.hasOwnProperty("--rounded-box")) {
-          resultObj["--rounded-box"] = "1rem";
+          resultObj["--rounded-box"] = "0.375rem";
         }
         if (!input.hasOwnProperty("--rounded-btn")) {
-          resultObj["--rounded-btn"] = "0.5rem";
+          resultObj["--rounded-btn"] = "0.375rem";
         }
         if (!input.hasOwnProperty("--rounded-badge")) {
           resultObj["--rounded-badge"] = "1.9rem";

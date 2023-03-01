@@ -17,7 +17,7 @@
 }
 .collapse-plus .collapse-title:after {
   @apply absolute block h-2 w-2 transition-all duration-300 ease-in-out;
-  top: 0.9rem;
+  top: 0.7rem;
   right: 1.4rem;
   content: "+";
   pointer-events: none;
@@ -38,8 +38,8 @@
 }
 .collapse-title,
 :where(.collapse > input[type="checkbox"]) {
-  @apply w-full p-4 pr-12;
-  min-height: 3.75rem;
+  @apply w-full p-3 pr-12;
+  min-height: 3rem;
   transition: background-color 0.2s ease-in-out;
 }
 /* 
@@ -50,14 +50,14 @@
 } */
 
 .collapse-content {
-  @apply px-4;
+  @apply px-3;
   cursor: unset;
   transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .collapse-open :where(.collapse-content),
 .collapse:focus:not(.collapse-close) :where(.collapse-content),
 .collapse:not(.collapse-close) :where(input[type="checkbox"]:checked ~ .collapse-content) {
-  @apply pb-4;
+  @apply pb-3;
   transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 

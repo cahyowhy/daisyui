@@ -1,5 +1,5 @@
 .select {
-  @apply border border-base-content border-opacity-0 bg-base-100 pr-10 font-semibold rounded-btn;
+  @apply border border-base-content border-opacity-0 bg-base-100 pr-10 rounded-btn;
   &-bordered {
     @apply border-opacity-20;
   }
@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   &:focus {
     outline: 2px solid hsla(var(--bc) / 0.2);
-    outline-offset: 2px;
   }
   &-ghost {
     @apply bg-opacity-5;
@@ -20,43 +19,43 @@
   &-primary {
     @apply border-primary;
     &:focus {
-      outline: 2px solid hsl(var(--p));
+      outline: 2px solid hsl(var(--p) / 0.5);
     }
   }
   &-secondary {
     @apply border-secondary;
     &:focus {
-      outline: 2px solid hsl(var(--s));
+      outline: 2px solid hsl(var(--s) / 0.5);
     }
   }
   &-accent {
     @apply border-accent;
     &:focus {
-      outline: 2px solid hsl(var(--a));
+      outline: 2px solid hsl(var(--a) / 0.5);
     }
   }
   &-info {
     @apply border-info;
     &:focus {
-      outline: 2px solid hsl(var(--in));
+      outline: 2px solid hsl(var(--in) / 0.5);
     }
   }
   &-success {
     @apply border-success;
     &:focus {
-      outline: 2px solid hsl(var(--su));
+      outline: 2px solid hsl(var(--su) / 0.5);
     }
   }
   &-warning {
     @apply border-warning;
     &:focus {
-      outline: 2px solid hsl(var(--wa));
+      outline: 2px solid hsl(var(--wa) / 0.5);
     }
   }
   &-error {
     @apply border-error;
     &:focus {
-      outline: 2px solid hsl(var(--er));
+      outline: 2px solid hsl(var(--er) / 0.5);
     }
   }
   &-disabled,

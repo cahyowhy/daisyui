@@ -1,6 +1,6 @@
 .select {
   @apply inline-flex flex-shrink-0 cursor-pointer select-none appearance-none;
-  @apply h-12 pl-4 pr-10 text-sm leading-loose min-h-12;
+  @apply py-1.5 px-3 pr-9 text-base;
 
   /* disabled */
   /* &-disabled,

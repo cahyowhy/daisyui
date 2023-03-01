@@ -20,7 +20,7 @@
     @apply border-l-4 border-primary;
   }
   :where(li) > :where(*:not(ul)) {
-    @apply gap-3 px-4 py-3 text-current;
+    @apply px-4 py-1 text-current;
   }
 
   :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus),

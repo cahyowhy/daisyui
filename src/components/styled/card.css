@@ -30,7 +30,7 @@
     }
   }
   &-body {
-    padding: var(--padding-card, 2rem);
+    padding: var(--padding-card, 1rem);
     @apply flex flex-col gap-2;
   }
   &-title {

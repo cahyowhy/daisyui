@@ -8,7 +8,7 @@
 }
 .card-normal {
   .card-body {
-    padding: var(--padding-card, 2rem);
+    padding: var(--padding-card, 1rem);
     @apply text-base;
   }
   .card-title {
